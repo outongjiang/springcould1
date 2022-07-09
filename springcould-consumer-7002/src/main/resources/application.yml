@@ -1,2 +1,19 @@
 server:
   port: 7002
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7003/eureka/
+
+  instance:
+    instance-id: springcould-consumer-7002
+    hostname: springcould-consumer-7002
+
+  server:
+    enable-self-preservation: false
+spring:
+  resources:
+    static-locations: classpath:/static
+info:
+  app.name: springcould-consumer-7002
+  company.name: springcould

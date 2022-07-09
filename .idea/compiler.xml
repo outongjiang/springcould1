@@ -8,9 +8,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springcould-provider-7001" />
-        <module name="springcould-api" />
+        <module name="springcould-eureka-7005" />
+        <module name="springcould-eureka-7004" />
         <module name="springcould-eureka-7003" />
         <module name="springcould-consumer-7002" />
+        <module name="springcould-api" />
       </profile>
     </annotationProcessing>
   </component>
